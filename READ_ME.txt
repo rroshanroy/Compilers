@@ -1,11 +1,6 @@
 //ROSHAN ROY
 //2017A7PS1172P
 
-
-
-Question 1:
-
-
 1) Files Submitted are: 
 
    - server.c, client.c 
@@ -30,9 +25,7 @@ Question 1:
 3) Implementation Details
 
    [!!!!IMPORTANT!!!!]
-   1. After running the code, if NO OUTPUT FILE is detected, please close both terminals and relaunch the two programs. Try following the execution steps multiple times until the output file IS VISIBLE. It will be visible eventually.
-
-   1. IF THERE IS NO OUTPUT FILE, THERE IS A SMALL BUG IN THE CODE FOR BREAKING OUT OF THE WHILE LOOP. ALL PRINT FUNCTIONS WORK. ALL FILE HANDLING WORKS. SIMPLY A BUG IN LOOP EXIT. YOU MAY CHECK BUFFER TO SEE THE EXISTENCE OF ALL THE DATA. PLEASE CONSIDER.
+   1. After running the code, if NO OUTPUT FILE is detected, please close both terminals and relaunch the two programs. 
 
    2. The buffer is implemented as a linked list. Every time the server acknowledges a packet, it is  placed into the server Buffer. Duplicate packets do not enter the buffer and the packets are arranged in increasing order of seq_no.
 
